@@ -1,0 +1,72 @@
+@import url("styles/style.css");
+@import url("styles/fonts.css");
+
+/* Logic for skip to main */
+.skip-nav{
+    position: absolute;
+    height: 30px;
+    width: 140px;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transform: translateY(-150%);
+    text-decoration: none;
+}
+
+.skip-nav:focus{
+    transform: translateY(30%);
+}
+
+/* buttons */
+
+.btn-sm{
+    background-color: #edecec;
+    border: 1px solid #edecec;
+    color: var(--text-btn);
+    cursor: pointer;
+    align-items: center;
+    line-height: var(--line-very-small);
+    font-size: var(--text-small);
+}
+
+.btn-primary-sm{
+    border:1px solid #edecec;
+    border-radius: 20px;
+    background-color: #edecec;  
+    width: 90px;
+    height: 30px;
+    cursor: pointer; 
+}
+
+.btn-secondary-sm{
+    border:1px solid rgba(255, 255, 255, 0.178);
+    border-radius: 10px;
+    background-color: #14120b;  
+    height: 24px;
+    width: 70px;
+    margin-right: 8px;
+    cursor: pointer;    
+}
+
+.btn-stat{
+    border:3px solid rgba(255, 255, 255, 0.178);
+    width: 48px;
+    height: 28px;
+    border-radius: 16px;
+}
+
+.btn-footer{
+    border:3px solid #1b1913;
+    background-color: rgba(63, 56, 56, 0.178);
+    width: 120px;
+    height: 30px;
+    border-radius: 16px; 
+    cursor: pointer;
+}
+
+
+

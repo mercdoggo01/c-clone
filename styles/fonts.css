@@ -1,0 +1,44 @@
+@import url("styles/style.css");
+
+
+/* Classes for fonts */
+
+.text-x2{
+    font-size: var(--text-2x);
+    line-height: var(--line-base);
+}
+
+.text-lg{
+    font-size: var(--text-large);
+    line-height: var(--line-small);
+}
+
+.text-md-lg{
+    font-size: var(--text-medium-large);
+    line-height: var(--line-medium-small);
+}
+
+.text-md{
+    font-size: var(--text-medium);
+    line-height: var(--line-medium);
+    letter-spacing: -0.005em;
+}
+
+.text-base{
+    font-size: var(--text-base);
+    line-height: var(--line-very-small);
+}
+
+.text-small{
+    font-size: var(--text-small);
+    line-height: var(--line-large);
+}
+
+.weight-normal{
+    font-weight: var(--font-weight);
+}
+
+/* font family */
+body{
+    font-family: var(--font-family);
+}

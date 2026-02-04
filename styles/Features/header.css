@@ -1,0 +1,27 @@
+@import url("styles/style.css");
+@import url("styles/fonts.css");
+
+
+.nav-bar{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-item:hover{
+    color: var(--text-color-secondary);
+    cursor: pointer;
+}
+
+.menu{
+    grid-template-columns: repeat(4, 0.6fr);
+    gap: 1rem;
+}
+

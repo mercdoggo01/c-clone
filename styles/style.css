@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* root */
+:root{
+    --color-theme-primary-bg: #14120b;
+    --color-theme-secondary-bg: #1b1913;
+    --text-color-primary: #f3f0f0;
+    --text-color-secondary: #bebdba;
+    --text-accent: #f54e00; 
+    --text-btn: #14120b;
+    --font-weight: 400;
+    --text-2x: 4.5rem;
+    --text-large: 2.25rem;
+    --text-medium-large: 1.625rem;
+    --text-medium: 1.375rem;
+    --text-base: 1rem;
+    --text-small: 0.875rem;
+    --line-large: 1.5;
+    --line-medium: 1.3;
+    --line-medium-small: 1.25;
+    --line-small: 1.2;
+    --line-base: 1.1;
+    --line-very-small: 1;
+    --font-family: "berkeleyMono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+/* Classes for Colors*/
+
+/* background */
+.bg-primary{
+    background-color: var(--color-theme-primary-bg);
+}
+
+.bg-secondary{
+    background-color: var(--color-theme-secondary-bg);
+}
+
+.icon-bg{
+    background-color: #ffff;
+    opacity: 0.9;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+}
+
+
+/* text */
+.text-primary{
+    color: var(--text-color-primary);
+}
+
+.text-secondary{
+    color: var(--text-color-secondary);
+}
+
+.text-accent{
+    color: var(--text-accent);
+}
+
+.text-bg{
+    color: var(--text-btn)
+}
+
+.link-style{
+    text-decoration: none;
+}
+
+.list-none{
+    list-style: none;
+}
+
+/* positioning */
+
+.flex{
+    display: flex;
+}
+
+
+.grid{
+    display: grid;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-inbetween{
+    justify-content: space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+/* Margin paddings */
+
+.mb1{
+    margin-bottom: 8px;
+}
+
+.mb2{
+    margin-bottom: 16px;
+}
+
+
+.mb4{
+    margin-bottom: 32px;
+}
+
+.mt2{
+    margin-top: 16px;
+}
+
+.mt3{
+    margin-top: 24px;
+}
+
+.mt8{
+    margin-top: 64px;
+}
+
+.py1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.px1{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.px2{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+.py6{
+    padding-top: 3rem;
+}
+
+.ml1{
+    margin-left: 8px;
+}
+
+.mr1{
+    margin-right:8px;
+}
